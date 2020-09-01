@@ -1,0 +1,51 @@
+.projects {
+  background-image: url("../../images/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.projects .projects-row {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.projects .project-photo,
+.projects .project-desc {
+  display: flex;
+}
+
+.projects .project-desc {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  flex: 1;
+  flex-direction: column;
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 500;
+  color: #373052;
+}
+
+.btn-github {
+  background-color: transparent;
+  padding: 2px;
+  width: 80px;
+  border: 2px solid #373052;
+  color: #373052;
+  font-size: 15px;
+  font-family: "Libre Caslon Display", serif;
+  border-radius: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-github:hover {
+  background-color: thistle;
+}

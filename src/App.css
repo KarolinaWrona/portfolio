@@ -1,0 +1,39 @@
+*:focus,
+*:active {
+  outline: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.app {
+  text-align: center;
+  justify-items: center;
+}
+
+.fullHeight {
+  min-height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.center-all {
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-column {
+    flex-direction: column;
+  }
+  .app {
+    overflow: auto;
+    height: auto;
+  }
+}

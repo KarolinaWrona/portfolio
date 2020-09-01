@@ -1,0 +1,9 @@
+.single-slide {
+  height: 57vh;
+}
+
+@media (max-width: 768px) {
+  .single-slide {
+    height: auto;
+  }
+}

@@ -1,0 +1,16 @@
+.toTop {
+  position: fixed;
+  bottom: 42px;
+  right: 30px;
+}
+.btn-t {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 2px solid #373052;
+  border-radius: 20px;
+  font-family: "Libre Caslon Display", serif;
+  color: #373052;
+}
+
+.btn-t:hover {
+  background-color: thistle;
+}

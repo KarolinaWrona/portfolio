@@ -1,0 +1,25 @@
+.menu {
+  background-color: rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu p {
+  color: white;
+  margin: 0;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.menu p:hover {
+  color: thistle;
+}
+
+@media (max-width: 576px) {
+  .menu {
+    justify-content: space-around;
+  }
+  .menu p {
+    padding: 15px 0;
+  }
+}

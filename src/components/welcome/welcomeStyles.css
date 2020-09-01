@@ -1,0 +1,39 @@
+.welcome {
+  background-image: url("../../images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  position: relative;
+}
+
+.welcome-content {
+  flex-direction: column;
+  flex: 1;
+}
+
+h1,
+p {
+  color: #373052;
+  font-family: "Libre Caslon Display", serif;
+}
+
+p {
+  font-size: 25px;
+}
+
+.btn {
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  border: 2px solid #373052;
+  color: #373052;
+  font-size: 30px;
+  font-family: "Libre Caslon Display", serif;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: thistle;
+}
